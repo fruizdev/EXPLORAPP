@@ -1,0 +1,120 @@
+
+#sabiasqueMV{
+	font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  margin-left: -20%;
+  height: 30%;
+  margin-top: 15%;
+  padding: 5px;
+  text-align: center;
+  color: #48ad33;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #F2F2F2;
+  opacity: 0.8;     
+}
+#sabiasqueMV:hover{background-color: #E3E3E3;  }
+
+.infomap{
+  color:#48ad33;
+  padding-left:10px;padding-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
+  opacity: 0.9;  
+  display:none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+ 
+}
+#mapa-inst{
+  text-align: center;
+  z-index: 100;
+  width: 100%;
+  position:fixed;
+  top:0px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
+  opacity: 0.6;  
+  display:none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+#mapa-inst:hover{
+   opacity: 0.8; 
+}
+
+#mapa{
+	top:-40px;
+  position: relative;
+  margin: 0 auto;
+  display: none;
+  background-color: ;
+}
+
+@media only screen and (min-width : 1000px) {
+  #mapa{
+    top:-30px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width : 750px) and (max-width: 1000px){
+  #mapa{
+    top:-30px;
+    width: 60%;
+  }
+}
+
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+ #mapa{
+    top:-30px;
+    width: 55%;
+  }
+
+}
+*/
+	
+
+
+
+.seccion1{left:25px;top:375px;}
+.nav1{left: 25px;top: 170px;}
+
+.seccion2{left: 600px;	top: 700px;}
+.nav2{left: 1200px;top: 450px;}
+
+.seccion3{	left: 800px;	top: 1100px;}
+.nav3{left: 1850px;top: 1100px;}
+
+.seccion4{left: 1050px;	top: 1200px;}
+.nav4{left: 1750px;top: 1550px;}
+
+.seccion5{left: 1000px;	top: 1800px;}
+.nav5{left: 1800px;top: 2200px;}
+
+.navegacion{
+	display: none;
+	top:500px;
+	left: 100px;
+	position: fixed;
+	width:320px;
+	height: 50px;
+}
+.navegacion a{
+	display: block;
+	width: 60px;
+	text-align: center;
+}
+
+#pop1{display: none;}
+
+#pop5{
+	background-color: white;
+	display: none;}
+
+
+
+

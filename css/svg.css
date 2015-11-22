@@ -1,0 +1,41 @@
+
+
+
+svg>path{ 
+	/*fill:#997E14;*/
+	opacity: 0.7; }
+
+svg>path:hover{	opacity:1; }
+
+g:hover{cursor:pointer; }
+
+.ft{ 	opacity:0.5;}
+
+#f1 path,#f10 path,#f17 path, #f26 path{ fill:#3B0B0B; }
+
+.focus{
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	border-radius: 100%;
+	-webkit-box-shadow: inset 1px 3px 10px 6px rgba(137, 134, 141, 1);
+	-moz-box-shadow:    inset 1px 3px 10px 6px rgba(137, 134, 141, 1);
+	box-shadow:         inset 1px 3px 10px 6px rgba(137, 134, 141, 1);	
+}
+/*#brillo1{	top:50%;	left:15%; }
+
+#brillo2{	top:305px; 	left:310px; }
+
+#brillo3{	top:480px; 	left:385px; }
+
+#brillo4{	top:620px; 	left:520px; }*/
+
+#nativosamericanos{
+	visibility: hidden;
+	width: 300px;
+	height: 200px;
+
+}
+
+ /*width="833px" height="956px"*/

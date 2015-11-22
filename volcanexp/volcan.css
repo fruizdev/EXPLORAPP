@@ -1,0 +1,33 @@
+
+#volcanexp{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 50%;
+	height:100% ;
+
+
+}
+
+
+
+/*id="lava" fill="#D37235" stroke="#FAEB21" stroke-miterlimit="10"*/
+#lava{
+
+	}
+
+/*fill="#AEADB4"*/
+#humo1{
+	
+}
+
+/*fill="#D9D9DD"*/
+#humo2{
+	
+}
+#humo2:hover{
+	
+}
+
+ /*fill="#EEEEF0"*/
+#humo3{}

@@ -1,0 +1,45 @@
+
+
+/*/  FLECHA ARRIBA  VERDE MONTEVERDE*/
+#svg_34{fill:#1eac7d;stroke:#AEADB4;stroke-width:2;	cursor:pointer;	transition:fill 0.5s linear 0s;}
+#svg_34:hover{	fill:#40DDA9;}
+
+#svg_7{fill:#40DDA9;stroke:#AEADB4; stroke-width:2;	cursor:pointer;	transition:fill 0.5s linear 0s;}
+#svg_7:hover{fill:#1eac7d;}
+
+/*/  FLECHA DERECHA  MORADO JUEGOS*/
+#svg_32{fill:#66398E;stroke:#AEADB4;stroke-width:2;	cursor:pointer;	transition:fill 0.5s linear 0s;	}
+#svg_32:hover{fill:#A367D7;}
+
+#svg_9{fill:#A367D7;stroke:#AEADB4; stroke-width:2; cursor:pointer;transition:fill 0.5s linear 0s;	}
+#svg_9:hover{fill:#66398E;}
+
+/*/  FLECHA ABAJO NARANJO EXTREMOFILOS*/
+#svg_31{fill:#f07e07;stroke:#AEADB4;stroke-width:2; cursor:pointer;	transition:fill 0.5s linear 0s;	}
+#svg_31:hover{fill:#FFAA4F;}
+
+#svg_13{fill:#FFAA4F;stroke:#AEADB4; stroke-width:2; cursor:pointer; transition:fill 0.5s linear 0s;}
+#svg_13:hover{fill:#f07e07;}
+
+/*/  FLECHA IZQUIERDA CELESTE INICIO*/
+#svg_33{fill:#2592D1;stroke:#AEADB4; stroke-width:2;cursor:pointer; transition:fill 0.5s linear 0s;}
+#svg_33:hover{fill:#4FB6F2;}
+
+#svg_11{fill:#4FB6F2;stroke:#AEADB4; stroke-width:2;cursor:pointer; transition:fill 0.5s linear 0s;}
+#svg_11:hover{fill:#2592D1;}
+
+
+#arriba{
+	opacity: .9;
+}
+#svg_1{cursor:default;visibility:hidden;display: none;}
+
+#svg_2{opacity:0.5;cursor:default;}
+
+
+
+#svg_5{
+	
+cursor:default;
+opacity:.2;
+}

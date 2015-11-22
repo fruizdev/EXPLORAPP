@@ -1,0 +1,122 @@
+/* Contenedor del puzzle*/
+#containJuego,#containJuego2,#containJuego3 {
+	margin: 0 auto;
+	width: 830px;
+	height: 510px;
+	box-shadow: 0px 0px 10px  2px #777;
+	color: #ccc;
+	background-color: red;
+	padding: 10px;
+	overflow: hidden;
+	padding: 7px;
+	background-color: rgba(78, 54, 137, 0.76);
+  display: none;
+}
+#containJuegoP {
+margin: 0 auto;
+  width: 830px;
+  height: 510px;
+
+}
+#salir{
+  bottom: 10px;
+}
+
+ #enlaces{
+font-size:1.9em;
+position:relative;
+font-family: 'Open Sans', sans-serif;
+top: 100px;
+margin: 0 auto;
+width: 40%;
+text-align: center;
+background-color: #F2F2F2;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+padding: 5px;
+opacity: .8;
+
+ } 
+ #enlaces a {
+  text-decoration: none;
+  color: rgb(148, 116, 176);
+  cursor: pointer;
+  transition:color 0.5s linear 0s;
+   transition:font-size 0.5s linear 0s;
+
+}
+ #enlaces a:hover {
+color:#66398E;
+font-size:2em;
+}
+
+/* Puzzle */
+#panel1{
+	background: rgba(155, 155, 155, 0.37);
+	width: 520px;
+	height: 100%;
+	float: left;
+		
+}
+
+#panel2 {
+  background: rgba(178, 253, 205, 0.37);
+  width: 300px;
+  height: 100%;
+  float: right;
+}
+.contenedorPieza {
+	  width: 130px;
+  height: 130px;
+  float: left;
+  margin-top: -64px;
+  margin-left: -55px;
+  border: 1px dotted green;
+}
+.img-lupa{
+ float: left;
+  width: 520px;
+  height: 510px;
+}
+#panel1puzzle .img-puzzle {
+  border: 1px solid gainsboro;
+  width: 70px;
+  height: 70px;
+}
+
+
+.img-puzzle {
+	  float: left;
+  padding: 1px;
+  width: 130px;
+  height: 130px;
+}
+#solucion{
+    margin-left: 70px;
+  margin-top: 110px;
+  border: 1px solid black;
+  height: 350px;
+  width: 440px;}
+
+
+
+#lupa-controls{
+	  font-family: 'Open Sans', sans-serif;
+color: black;
+	margin: 0 auto;
+}
+
+#panel1puzzle{
+	background: rgba(155, 155, 155, 0.37);
+	width: 300px;
+	height: 100%;
+	float: left;
+		
+}
+
+#panel2puzzle {
+  background: rgba(178, 253, 205, 0.37);
+  width: 520px;
+  height: 100%;
+  float: right;
+}
